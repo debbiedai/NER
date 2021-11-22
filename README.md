@@ -18,6 +18,7 @@ Project aims to collect a literature corpus as our training and testing data wit
 - split our data into 10 folds
 - convert .xml file to .tsv
 - convert .tsv to .txt (with/without text name)
+
 `same_len.py`
 - preprocess to same length
 - create train_dev.txt, devel.txt, test.txt 
