@@ -1,6 +1,6 @@
-# Finetuning BioBert for Arthropod gene name Named Entity Recognition
+# Finetuning BioBert for arthropod gene name Named Entity Recognition
 
-### Project aims to collect a literature corpus as our training and testing data with automated or manual labeled entities, from abstracts in the arthropod sciences. <bt>
+Project aims to collect a literature corpus as our training and testing data with automated or manual labeled entities, from abstracts in the arthropod sciences. We finetuned the [BioBert](https://github.com/dmis-lab/biobert-pytorch) to perform named-entity recognition (NER) for arthropod gene name.
 
 
 ### Requirment
@@ -23,4 +23,3 @@
 - create train_dev.txt, devel.txt, test.txt 
 
 ### Finetuning BioBert
-# NER
