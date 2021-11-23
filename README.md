@@ -16,6 +16,7 @@ The introduction of [Colab](https://colab.research.google.com/?utm_source=scs-in
 
 ### Preprocess
 Before training, please run `preprocess.py` and `same_len.py` to process the dataset.
+
 `preprocess.py`
 - split our data into 10 folds (10 folds cross validation)
 - convert .xml file to .tsv
