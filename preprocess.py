@@ -217,12 +217,12 @@ def tsv_to_txt(tsv_path, save_path, fold_num, add_txt_name):
 if __name__ == '__main__':
     files = os.listdir()
     # split all .xml to 10 folds, def [split_fold] would generate fold_name_[0-9].csv which store .xml name 
-    split_fold(files, 10, './split_fold_test')
+    split_fold(files, 10, './example_data/original')
     # token each abstract and save to fold_[0-9].csv
-    preprocess('./split_fold_test', './split_fold_test')
+    preprocess('./example_data/original', './example_data/original')
     # convert tsv data to txt file
-    tsv_to_txt('./split_fold_test/', './split_fold_test/txt_name', 10, True)
-    tsv_to_txt('./split_fold_test/', './split_fold_test/no_txt_name', 10, False)
+    tsv_to_txt('./example_data/original/', './example_data/preprocessed/name', 10, True)
+    tsv_to_txt('./example_data/original/', './example_data/preprocessed/no_name', 10, False)
 
 
 

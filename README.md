@@ -5,7 +5,7 @@ Project aims to collect a literature corpus as our training and testing data wit
 
 ### Requirment
 `Python3` and `Colab`<br>
-The introduction of [Colab](https://colab.research.google.com/?utm_source=scs-index#scrollTo=5fCEDCU_qrC0)
+The introduction of [Colab](https://colab.research.google.com/?utm_source=scs-index#scrollTo=5fCEDCU_qrC0).
 
 ### Installation
 - seqeval : Used for evaluation (`pip install seqeval`)

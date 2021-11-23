@@ -1,0 +1,40 @@
+19542205_v0.xml
+['odorant', 'gustatory receptors', 'gustatory', 'Gr', 'Or', 'Gr', 'Grs', 'Ors', 'chemoreceptor']
+19620392_v0.xml
+['saxophone', 'BMP', 'I receptor', 'ALK1', 'ACVRL1', 'ACVR1', 'ALK2', 'bone morphogenetic proteins', 'BMPs', 'I receptor', 'saxophone', 'sax', 'Activin Receptor-Like Kinase1', 'ALK1', 'ACVRL1', 'ALK2', 'ACVR1', 'sax', 'BMP', 'BMP', 'dpp+', 'sax', 'sax', 'sax', 'saxP', 'sax', 'ALK1', 'ACVRl-1', 'ACVR1', 'ALK2', 'HHT2', 'FOP', 'Sax receptor', 'Sax', 'BMP', 'TGF-beta']
+19782687_v0.xml
+['heat shock protein', 'Hsp70', 'Hsp90', 'hsp', 'Hsps', 'hsp70', 'Hsp90', 'hsp70', 'hsp90', 'hsp70', 'hsp90', 'Hsps']
+19782689_v0.xml
+['heat shock protein 90', 'heat shock protein', 'hsp90', 'hsp70', 'hsc70', 'Hsps', 'Hsp90', 'hsp90', 'hsp90', 'hsp90', 'hsp70', 'hsp90', 'hsp70', 'hsp90', 'hsc70', 'hsp70', 'hsp70', 'hsc70', 'hsp90', 'hsp70', 'hsp90', 'hsc70', 'hsp70', 'hsp90', 'hsp90', 'hsp70']
+19861164_v0.xml
+['silkmoth', 'SoHo', 'SH3', 'CAP', 'ArgBP2', 'vinexin', 'BmCAP', 'CAP', 'ArgBP2', 'vinexin', 'BmCAP-A1', 'BmCAP-A2', 'BmCAP-B', 'SoHo', 'SH3', 'BmCAP-A', 'BmCAP-A', 'BmCAP-A', 'BmCAP-A', 'BmCAP-A']
+19900550_v0.xml
+['ace1', 'ace2', 'acetylcholinesterase', 'AChE', 'ace', 'ace1', 'ace2', 'ace', 'Bgace', 'BgAChE1', 'ace1', 'Bgace1-interfered', 'Bgace2', 'AChE1', 'Bgace1', 'Bgace2', 'ace', 'ace']
+19944757_v0.xml
+['beta-glucosidases', 'beta-Glucosidase', 'beta-glucosidase', 'beta-glucosidase', 'glycosyl hydrolase', '1', 'beta-glucosidases', 'cDNAs', 'beta-glucosidases', 'beta-glucosidase', '4-glucanase"']
+19956620_v0.xml
+['Asx', 'betaPS integrin', 'Engrailed', 'Ultrabithorax', 'Ubx', 'Ubx']
+19960683_v0.xml
+['odorant-binding protein', 'cDNAs', 'CN G11B', 'odorant-binding proteins', 'CN G11B.1 CN G11B.1', 'odorant-binding proteins', 'CN G11B.1', 'odorant-binding proteins', 'CN G11B.1']
+19995605_v0.xml
+['protein Ser2', 'Sericins', 'Ser1', 'Ser3', 'Ser1', 'Ser3', 'Ser2', 'Ser2']
+20005950_v0.xml
+['nicotinic receptor', 'nicotinic acetylcholine receptors', 'nAChRs', 'nAChRs', 'nAChRs', 'Nlalpha1', 'Nlalpha2', 'Nlbeta1', 'Nlalpha3', 'Nlalpha8', 'Nlbeta1', 'Nlalpha1', 'Nlalpha2', 'Nlalpha3', 'Nlalpha8', 'Nlbeta1', 'nAChR', 'Nlalpha4', 'Nlalpha6', 'Nlalpha7', 'Nlbeta2', 'Nlalpha2', 'Nlbeta1', 'Nlalpha8', 'Nlbeta1']
+20020062_v0.xml
+['Bg30009', 'Brownie', 'Brownie', 'Brownie', 'Brownie', 'Brownie']
+20026067_v0.xml
+['heat shock proteins']
+20043914_v0.xml
+['gasp', 'Peritrophins', 'CfGasp', 'DmGasp', 'Gasp', 'peritrophins', 'cuticular', 'peritrophins', 'CfGasp', 'proteins', 'CfGasp']
+20087392_v0.xml
+['cys-loop ligand-gated ion channel', 'cys-loop ligand-gated ion channel', 'cysLGIC', 'cys-loop LGICs', 'cysLGIC', 'wasp', 'cysLGIC', 'pH-sensitive chloride channel', 'pHCl', 'cysLGIC', 'cysLGIC']
+20130575_v0.xml
+['odorant receptor', 'AgOr']
+20193689_v0.xml
+['trehalose-6-phosphate synthase', 'trehalose-6-phosphate synthase', 'SeTPS', 'SeTPS', 'SeTPS', 'SeTPS', 'SeTPS', 'trehalose-6-phosphate synthase']
+20417712_v0.xml
+['caspase-like', 'caspase', 'Caspases', 'cysteine proteases', 'caspase', 'caspase-like', 'caspase', 'Caspase-like', 'caspase', 'caspase', 'caspase', 'caspase-like', 'CASPS18', 'caspase', 'CASPS18', 'CASPS18', 'caspase', 'CASPS19', 'CASPS18', 'CASPS19', 'CASPS19', 'caspase-like', 'caspase']
+20420910_v0.xml
+['aminopeptidase N', 'Aminopeptidases N', 'APNs', 'aminopeptidases', 'APNs', 'aminopeptidase', 'onapn', 'bmapn', 'aminopeptidases', 'apns', 'apn8', 'psa', 'apns', 'apn']
+20457161_v0.xml
+['Methoprene tolerant', 'Met', 'germ cell expressed', 'gce', 'JH receptor', 'Met', 'germ cell expressed', 'gce', 'Met', 'gce', 'Met', 'gce', 'CG15032', 'Met-like', 'Met', 'gce', 'gce', 'Met', 'Met', 'gce', 'gce-like']

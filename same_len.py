@@ -61,14 +61,16 @@ def creat_train_data(train_fold_list, val_fold, test_fold, data_path, save_path)
         f.write('\n')
 
 if __name__ == '__main__':
-    # the path of 10 folds no_txt_name file, def [preprocess_same_len] truncate each setence to same length
-    files = os.listdir('./split_fold_test/txt_name')
+    # both of no name file and name file need to be processed to same length, so you need to change path directory when run the name file
+    # the path of 10 folds no_name/name file, def [preprocess_same_len] truncate each setence to same length
+    files = os.listdir('./example_data/preprocessed/no_name')
     for file in files:
         if file.endswith('.txt'):
-            path = os.path.join('./split_fold_test/txt_name', file)
-            preprocess_same_len(50, 'dmis-lab/biobert-base-cased-v1.1', path, './split_fold_test/txt_name/same_len/'+file)
+            path = os.path.join('./example_data/preprocessed/no_name', file)
+            preprocess_same_len(50, 'dmis-lab/biobert-base-cased-v1.1', path, './example_data/preprocessed/no_name/same_len/' + file)
 
-    # create train_dev.txt, devel.txt, test.txt 
+
+    # only no_name file need to run the code below for creating train_dev.txt, devel.txt, test.txt 
     val_list = [0,1,2,3,4,5,6,7,8,9]
     test_list = [1,2,3,4,5,6,7,8,9,0]
     for i in range(len(test_list)):
@@ -78,4 +80,4 @@ if __name__ == '__main__':
         train_num.remove(val_num)
         train_num.remove(test_num)
         print('train_num', train_num)
-        creat_train_data(train_num, val_num, test_num, './split_fold_test/no_txt_name/same_len', './split_fold_test/no_txt_name/same_len')
+        creat_train_data(train_num, val_num, test_num, './example_data/preprocessed/no_name/same_len/', './example_data/preprocessed/training_data/')

@@ -104,5 +104,7 @@ def postprocess(name, add_pred_name_path, save_path):
 
 
 if __name__ == '__main__':
-    add_pred_name(1,2,'./split_fold_test/txt_name/same_len', './split_fold_test/pred', './split_fold_test/pred/add_pred_name')
-    postprocess('v1_t2', './split_fold_test/pred/add_pred_name', './split_fold_test/pred/post_prediction')
+    # val_num = 0, test_num = 1
+    add_pred_name(0, 1, './example_data/preprocessed/name/same_len/', './example_data/pred/biobert_output/', './example_data/pred/add_pred_name/')
+    # name = 'v0_t1'
+    postprocess('v0_t1', './example_data/pred/add_pred_name/', './example_data/result/')
