@@ -48,5 +48,6 @@ The `args.json` stores the setting argument when training. (Remind: "max_seq_len
 
 ### Postprocess
 
-After training, the test prediction of each fold would be saved in output directory. 
+After training, the test prediction of each fold would be saved in output directory. Please download test_predictions.txt and rename it. (For example: test_predictions_v0_t1.txt)
+
 In `postprocess.py`, you can add text name in the test prediction and postprocess to the output format we want.
