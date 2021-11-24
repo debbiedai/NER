@@ -20,7 +20,7 @@ Before training, please run `preprocess.py` and `same_len.py` to process the dat
 `preprocess.py`
 - split our data into 10 folds (10 folds cross validation)
 - convert .xml file to .tsv
-- convert .tsv to .txt (with/without text name, without text name txt file would be )
+- convert .tsv to .txt (generate with/without text name .txt file)
 
 `same_len.py` (run `same_len.py` on with/without text name .txt file)
 - preprocess to same length

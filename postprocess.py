@@ -89,18 +89,20 @@ def postprocess(name, add_pred_name_path, save_path):
                 word = tmp_word + ' ' + word
                 tmp_word, tmp_count, tmp_tag = word, count, tag
                 if n == len(v)-1:
-                    find.append(tmp_word)
+                    find.append(tmp_word[0])
                 continue
             if count != tmp_count + 1:
-                find.append(tmp_word)
+                find.append(tmp_word[0])
             if n == len(v)-1:
-                find.append(word)
+                find.append(word[0])
             tmp_tag, tmp_count, tmp_word = tag, count, word
         
         print(find[1:])
 
         with open(save_file, 'a') as f:
-            f.write(str(find[1:]) + '\n')
+            genes = ", ".join(find[1:])
+            f.write(genes+'\n')
+
 
 
 if __name__ == '__main__':
