@@ -11,6 +11,7 @@ The introduction of [Colab](https://colab.research.google.com/?utm_source=scs-in
 - seqeval : Used for evaluation (`pip install seqeval`)
 - inflect (`pip install inflect`)
 - nltk (`pip install nltk`)
+- sklearn (`pip install scikit-learn`)
 - transformers (`pip install transformers`)
 - beautifulsoup4 (`pip install beautifulsoup4`)
 

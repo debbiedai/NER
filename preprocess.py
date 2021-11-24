@@ -220,7 +220,7 @@ if __name__ == '__main__':
     split_fold(files, 10, './example_data/original')
     # token each abstract and save to fold_[0-9].csv
     preprocess('./example_data/original', './example_data/original')
-    # convert tsv data to txt file
+    # convert tsv to txt
     tsv_to_txt('./example_data/original/', './example_data/preprocessed/name', 10, True)
     tsv_to_txt('./example_data/original/', './example_data/preprocessed/no_name', 10, False)
 

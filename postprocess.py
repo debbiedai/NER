@@ -51,7 +51,7 @@ def add_pred_name(val_num, test_num, text_name_dir, pred_dir, save_path):
 
 # extract the word of gene name by model prediction
 def postprocess(name, add_pred_name_path, save_path):
-    # name = 'v9_t0'
+    # name = 'v0_t1' means validation data is fold0, test data is fold1
     dataset = os.path.join(add_pred_name_path, "add_pred_name_" + str(name) + ".txt" )
     pred = defaultdict(list)
     count = 0
