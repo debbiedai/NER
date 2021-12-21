@@ -46,6 +46,7 @@ The `args.json` stores the setting argument when training. (Remind: "max_seq_len
 | fold_7         |          84.07          |         85.34        |       84.70      |
 | fold_8         |          90.11          |         86.01        |       88.01      |
 | fold_9         |          85.77          |         87.40        |       86.58      |
+| Average        |          81.91          |         86.19        |       83.85      |
 
 ### Postprocess
 
