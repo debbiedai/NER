@@ -53,3 +53,17 @@ The `args.json` stores the setting argument when training. (Remind: "max_seq_len
 After training, the test prediction of each fold would be saved in output directory. Please download test_predictions.txt and rename it. (For example: test_predictions_v0_t1.txt)
 
 In `postprocess.py`, you can add text name in the test prediction and postprocess to the output format we want.
+
+### Citation
+```bibtex
+@article{lee2020biobert,
+  title={BioBERT: a pre-trained biomedical language representation model for biomedical text mining},
+  author={Lee, Jinhyuk and Yoon, Wonjin and Kim, Sungdong and Kim, Donghyeon and Kim, Sunkyu and So, Chan Ho and Kang, Jaewoo},
+  journal={Bioinformatics},
+  volume={36},
+  number={4},
+  pages={1234--1240},
+  year={2020},
+  publisher={Oxford University Press}
+}
+```
